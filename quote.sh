@@ -1,5 +1,7 @@
 #!/bin/bash
 
-cow=$(node cow.js)
+sleep 1
 
-node getQuote.js | cowsay -f $cow
+cow=$(node /home/spectre007/Desktop/projects/dispQuotes/cow.js)
+
+node /home/spectre007/Desktop/projects/dispQuotes/getQuote.js | cowsay -f $cow
